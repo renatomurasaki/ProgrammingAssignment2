@@ -16,7 +16,7 @@
 ## - showing the function retrieving cached inverse
 ## cacheSolve(w)
 
-## Use makeCacheMatrix () to create an cached object with the properties 
+## Use makeCacheMatrix () to create a cached object with the properties 
 ## mtx (given matrix) and inv (its inverse). There are also four methods to
 ## set and get those properties: set(), get(), setinv(), getinv().
 
