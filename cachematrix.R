@@ -1,20 +1,21 @@
 ## These functions allow us to invert a square invertible matrix 
 ## using cache facilities.
+##
 ## Sample of use:
-## - creating a square invertible matrix
-## z <- cbind(1:2, 4:5)
-## - creating a cache matrix
-## w <- makeCacheMatrix(z)
-## - showing the matrix recently set
-## w$get()
-## - showing there is no inverted matrix
-## w$getinv()
-## - calculating the inverse of matrix and caching it
-## cacheSolve(w)
-## - showing the cached inverted matrix
-## w$getinv()
-## - showing the function retrieving cached inverse
-## cacheSolve(w)
+##  - creating a square invertible matrix
+##      z <- cbind(1:2, 4:5)
+##  - creating a cache matrix
+##      w <- makeCacheMatrix(z)
+##  - showing the matrix recently set
+##      w$get()
+##  - showing there is no inverted matrix
+##      w$getinv()
+##  - calculating the inverse of matrix and caching it
+##      cacheSolve(w)
+##  - showing the cached inverted matrix
+##      w$getinv()
+##  - showing the function retrieving cached inverse
+##      cacheSolve(w)
 
 ## Use makeCacheMatrix () to create a cached object with the properties 
 ## mtx (given matrix) and inv (its inverse). There are also four methods to
